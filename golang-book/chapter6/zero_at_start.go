@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 	var x = []int{0,1,2,3,0,4,0,6,0}
+	// Bring all zero to start of array without sorting array 
+	// and without using extra array
 	fmt.Println("Before bringing zero at start of array :", x)
 	zerocount := 0
 	for index, value := range x {
